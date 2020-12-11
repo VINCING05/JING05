@@ -8,11 +8,11 @@
 * ARIS187 ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '👾BANGLENT👾'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/_maslent11'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+628165466368'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '👾BOTVIN05👾'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://instagram.com/semblegedezchanel'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/+6289527818905'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'https://chat.whatsapp.com/E8VriS0ojj53PX5wkhPYaD'; // JANGAN UBAH-UBAH INFO!!!
+const groupwhatsapp = 'https://chat.whatsapp.com/GKx4pINnvWR8PhebiFHxwN'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://youtu.be/pRTmMIfkfT0'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
 const qrcode = require("qrcode-terminal");
@@ -73,7 +73,7 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_Maslent`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @semblegedezchanel`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
@@ -145,10 +145,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, ' *Owner BANGLENT wa.me/+628165466368* ' ,MessageType.text);
+conn.sendMessage(id, ' *Owner BOTVIN05 wa.me/+6289527818905* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator BANGLENT wa.me/+628165466368* ' ,MessageType.text);
+conn.sendMessage(id, ' *Creator  wa.me/+6289527818905* ' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#menu* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
